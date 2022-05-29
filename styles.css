@@ -1,76 +1,111 @@
-nav img{
-    width: 130px;
-}
+    nav img{
+        width: 130px;
+    }
 
-.card-img{  
-    filter:brightness(50%);
-}
+    div#general{
+        margin:auto;
+        width: 960px;
+    }
+    .card-img{  
+        filter:brightness(50%);
+    }
 
-h1{ 
-     text-align:right;margin-top:370px;margin-right:100px;
-}
+    h1{ 
+        text-align:right;margin-top:370px;margin-right:100px;
+    }
 
-div pre{
-     font-size:20px; text-align:right;margin-top:10px; margin-right:100px;
-}
+    div pre{
+        font-size:20px; text-align:right;margin-top:10px; margin-right:100px;
+    }
 
-.orador{
-    text-align: center;
-}
+    .orador{
+        text-align: center;
+    }
 
-.card-body2{
-    background:rgb(62, 57, 57);
-    color:white;
-    font-size:small;
-}
+    .card-body2{
+        background:rgb(62, 57, 57);
+        color:white;
+        font-size:small;
+    }
 
-.boton{
-    border-radius:8px;
-    border-style: solid;
-    color: white;
-    padding:5px;
-}
+    .boton{
+        border-radius:8px;
+        border-color:white;
+        border-style: solid;
+        background-color: black;
+        color: white;
+        padding:5px;
+    }
 
-.boton-1{
-    display:inline-block; 
-    background:olivedrab;
-    width:750px;
-    color:white;
-    border:none;
-    text-align: center;
-    padding:15px;
-}
+    .boton-1{
+        display:inline-block; 
+        background:olivedrab;
+        width:750px;
+        color:white;
+        border:none;
+        text-align: center;
+        padding:15px;
+    }
 
-.boton-orador{
-    margin-left:1000px;
-    border-radius:8px;
-    border-style: solid;
-    color: white;
-    font-size:20px;
-    padding:10px;
-    display:inline-block
-}
-
-
-.boton-TK{
-    background:olivedrab;
-
-    margin-left:0px;
-    color:white;
-    border-radius:8px;
-    border:none;
-    text-align: center;
-    font-size:20px;
-    padding:10px;
-    display:inline-block
-}
+    .boton-orador{
+        margin-left:950px;
+        border-color:white;
+        border-radius:8px;
+        border-style: solid;
+        background: none;
+        color: white;
+        font-size:20px;
+        padding:10px;
+        display:inline-block
+    }
 
 
-    
-footer{
-    margin-top: 100px;
-    padding: 10px;
-    background-color: #214d67;
-    color:white;
-}
+    .boton-TK{
+        background:olivedrab;
+        margin-left:10px;
+        color:white;
+        border-radius:8px;
+        border:none;
+        text-align: center;
+        font-size:20px;
+        padding:10px;
+        display:inline-block;
+    }
 
+
+        
+    footer{
+        margin-top:100px;
+        padding: 10px;
+        background-color: #214d67;
+        color:white;
+    }
+
+
+    #container .card{    
+        margin-left: auto;margin-right: auto;
+        border-style:solid;
+        border-width:3px;
+        width: 300px;
+        height:300px;
+        padding:20px;
+        display: inline-block;
+    }
+
+   .pago{
+    border-style:none;   
+    border-radius: 5px;
+    background-color: lightblue;
+    color: black;
+    padding:20px;
+   } 
+
+
+   .btnSend{
+       width:460px;
+       padding:10px;
+       border:none;
+       border-radius:5px;
+       background: olivedrab;
+       color:white;
+   }

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    <title>Compra de tickets</title>
+</head>
+<body> 
+     <header>
+        <!--nav inicio-->
+  
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="index.html">
+                <img src="imagenes/codoacodo.png">
+                 <label>Conf Bs.As.</label>
+               </a> 
+    
+                    <!--desplazo el contenido de la barra de navegacion hacia la derecha-->   
+                <div>  
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color:lightgray">La conferencia</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:lightgray" >Los oradores</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:lightgray">El lugar y la fecha</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"style="color:lightgray" >Conviértete en orador</a>
+                          </li>
+                          <li class="nav-item">
+                            <a  href="tickets.html" class="nav-link" href="#" style="color:rgb(63, 185, 63)" >Comprar tickets</a>
+                          </li>
+                        </ul>
+                      </div>    
+                </div>
+                       
+            </div>
+          </nav>
+      </header>   
+           <!--nav fin-->         
+    
+
+    <div id="general">
+
+      <main>
+                        <!--card inicio-->
+        <div id="container" style="text-align:center; margin-top:30px;">
+            <div class="card" style=" border-color:blue;">  
+                <div>              
+                    <p class="card-text" style="font-size:large;"><B>Estudiante</B></p>
+                    <br>
+                    <p>tienen un descuento</p>
+                    <br>
+                    <p style="font-size:large;"><B>80%</B></p>
+                    <br>
+                     <p><small>*presentar documentación</small></p> 
+                </div>
+            </div>
+        
+            <div class="card" style="border-color:green">
+                <div>
+                    <p class="card-text" style="font-size:large;"><B>Trainee</B></p>
+                    <br>
+                    <p>tienen un descuento</p>
+                    <br>
+                    <p style="font-size:large;"><B>50%</B></p>
+                    <br>
+                    <p><small>*presentar documentación</small></p>  
+                </div>
+            </div>
+            
+            <div class="card" style="border-color:yellow">
+                <div>
+                    <p class="card-text" style="font-size:large;"><B>Junior</B></p>
+                    <br>
+                    <p>tienen un descuento</p>
+                    <br>
+                    <p style="font-size:large;"><B>15%</B></p>
+                    <br>
+                    <p><small>*presentar documentación</small></p> 
+                </div>
+            </div>
+
+            <div>
+                <p style="font-size:large">VENTA</p>
+                <h2>VALOR DE TICKET $200</h2>                
+            </div>
+        
+        </div>
+                    <!--Cards fin-->
+     </main>
+                    
+        <div class="container fluid">
+          <!--*************************************************************************************************************-->
+
+                  <!-- Inicio del formulario y seleccion-->
+          <form id="iform"> 
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                        <input id="inombre"type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <input id="iapellido" type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label"></label>
+                    <input id="mail" type="email" class="form-control" placeholder="correo" id="inputEmail4">
+                  </div>
+
+
+                  <div class="row g-3"> 
+                      
+                      <div class="col-md-6">
+                        <br>                     
+                        <label for="inputCantidad" class="form-label">Cantidad</label>
+                        <input id="idInputCantidad" type="text" class="form-control" placeholder="cantidad">
+                      </div>
+                      <div class="col-md-6">
+                        <br>
+                        <label for="inputState" class="form-label">Categoría</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Estudiante</option>
+                          <option>Trainee</option>
+                          <option>Junior</option>
+                          
+                        </select>
+                      </div>
+                  </div>       
+          </form>   
+                  <!--formulario . fin-->
+
+          <br>
+          <div class="col-md-12">
+            <P id="idtotal" class="pago">
+              Total a Pagar: $
+            </P>          
+          </div>
+                <div >
+                    <br>
+                       <button id="btnBorrar"  onclick="borrar()" class="btnSend" type="button">Borrar</button>                                  
+                       <button id="btnResumen" onclick="boton()"  class="btnSend" style="margin-left:10px" type="button">Resumen</button>
+                      
+                </div>
+
+          </div>
+                                      
+        </div>           
+    </div> 
+
+
+  <!--footer inicio-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                  <p>preguntas<br> frecuentes</p>                     
+                </div>
+                
+                <div class="col">
+                  <p>Contáctanos</p>
+                </div>
+
+                <div class="col">
+                  <p>Prensa</p>
+                </div>
+
+                <div class="col">
+                  <p>Conferencia</p>
+                </div>
+
+                <div class="col">
+                  <p>Terminos y  <br> condiciones</p>
+                </div>
+
+                <div class="col">
+                  <p>Privacidad</p>
+                </div>
+
+                <div class="col">
+                  <p>Estudiantes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+      <!--footer fin-->
+     <script type="text/javascript" src="tickets.js"></script>
+
+</body>
+</html>

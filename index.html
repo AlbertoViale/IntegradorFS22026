@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+   
     <title>TPintegrador</title>
 
 </head>
@@ -23,8 +24,7 @@
              </a> 
   
                   <!--desplazo el contenido de la barra de navegacion hacia la derecha-->   
-              <div>
-  
+              <div>  
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item">
@@ -40,7 +40,7 @@
                           <a class="nav-link" href="#"style="color:lightgray" >Conviértete en orador</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#" style="color:rgb(63, 185, 63)">Comprar tickets</a>
+                          <a  href="tickets.html" class="nav-link" href="#" style="color:rgb(63, 185, 63)" >Comprar tickets</a>
                         </li>
                       </ul>
                     </div>    
@@ -71,8 +71,11 @@
                     </pre>       
                     
                     <div>
-                      <buttom type="buttom" class="boton-orador">Quiero ser orador</buttom>
-                      <buttom type="buttom" class="boton-TK">Comprar tickets</buttom>
+                      <button type="button" class="boton-orador">Quiero ser orador</button>
+                      <a href="tickets.html" >
+                         <button  type="button" class="boton-TK"  >Comprar tickets</button>
+                      </a>
+                     
                     </div>
                    
                   </div>
@@ -114,11 +117,11 @@
                 <div class="card">
                     <img src="imagenes/ada.jpeg" class="card-img-top" alt="Ada">
                     <div class="card-body">
-                        <h5 class="card-title">Ada Lovelace</h5>
-                        <span class="badge bg-secondary">Negocios</span>
-                        <span class="badge bg-danger">Startups</span>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim suscipit recusandae tempore ab voluptatibus eligendi facilis sint nam repellat numquam ipsa aliquid similique, sit non minima cum at eius quo?.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                     <span class="badge bg-secondary">Negocios</span>
+                      <span class="badge bg-danger">Startups</span>
+                       <h5 class="card-title">Ada Lovelace</h5>                        
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim suscipit recusandae tempore ab voluptatibus eligendi facilis sint nam repellat numquam ipsa aliquid similique, sit non minima cum at eius quo?.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
         </div>                              
@@ -140,7 +143,7 @@
                                         urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
                                         condado consolidada que cubre toda la ciudad (aproximadamente 600 km <sup>2</sup> de superficie).
                     </p>                 
-                     <buttom class="boton" type="buttom">Conocé más</buttom>
+                     <button class="boton" type="button">Conocé más</button>
                 </div>
             </div>             
         </div>
@@ -152,7 +155,7 @@
             <label>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar! </label>             
         </div>                                    
     
-        <!--form inicio-->
+        <!--*****form inicio****-->
 
         <div class="container" style="height:200px; max-width:800px; margin-top:20px">
                 
@@ -183,7 +186,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                  <p>preguntas frecuentes</p>                     
+                  <p>preguntas<br> frecuentes</p>                     
                 </div>
                 
                 <div class="col">
@@ -199,7 +202,7 @@
                 </div>
 
                 <div class="col">
-                  <p>Terminos y condiciones</p>
+                  <p>Terminos y  <br> condiciones</p>
                 </div>
 
                 <div class="col">
@@ -212,8 +215,10 @@
             </div>
         </div>
     </footer>
-
       <!--footer fin-->
+      
+      
+      <script src="js/tickets.js"></script>
 </body>
 </html>
     
