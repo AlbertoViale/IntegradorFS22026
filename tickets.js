@@ -31,6 +31,7 @@ function boton(){
 }  
   function borrar(){
     document.querySelector('#iform').reset()
+    document.getElementById('idtotal').innerHTML='Total a pagar: $';
   }
  
 

@@ -4,61 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <title>TPintegrador</title>
 
 </head>
-<body>
+<body>  
 
     <header>
-        <!--nav inicio-->
-  
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-          <div class="container-fluid">
-             <a class="navbar-brand" href="#">
-              <img src="imagenes/codoacodo.png">
-               <label>Conf Bs.As.</label>
-             </a> 
-  
-                  <!--desplazo el contenido de la barra de navegacion hacia la derecha-->   
-              <div>  
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#" style="color:lightgray">La conferencia</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#" style="color:lightgray" >Los oradores</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#" style="color:lightgray">El lugar y la fecha</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#"style="color:lightgray" >Conviértete en orador</a>
-                        </li>
-                        <li class="nav-item">
-                          <a  href="tickets.html" class="nav-link" href="#" style="color:rgb(63, 185, 63)" >Comprar tickets</a>
-                        </li>
-                      </ul>
-                    </div>    
-              </div>
-                     
-          </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+           <a class="navbar-brand" href="index.html">
+            <img src="imagenes/codoacodo.png">
+             <label>Conf Bs.As.</label>
+           </a> 
+
+                <!--desplazo el contenido de la barra de navegacion hacia la derecha-->   
+            <div>  
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color:lightgray">La conferencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color:lightgray" >Los oradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color:lightgray">El lugar y la fecha</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"style="color:lightgray" >Conviértete en orador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  href="tickets.html" class="nav-link" href="#" style="color:rgb(63, 185, 63)" >Comprar tickets</a>
+                      </li>
+                    </ul>
+                  </div>    
+            </div>
+                   
+        </div>
+      </nav>
+
     </header>   
          <!--nav fin-->
 
          <!--foto principal  inicio-->
-
     <main>
         <section>         
               <div class="card bg-dark text-white">
                 <img class="card-img" src="imagenes\ba1.jpg" alt="Card image">
-                <div class="card-img-overlay">
-                  <h1 class="card-title">Conf Bs As</h1> 
+                 <div class="card-img-overlay">
+                   <h1 class="card-title">Conf Bs As</h1> 
                    <!--style="font-weight:bold ; font-size:20px;background-color:blue;
                             text-align:right">  -->
                           
@@ -67,20 +66,17 @@
                       nuestra comunidad el conocimiento y experiencia de los expertos que
                           están creando el futuro de Internet,Ven a conocer a miembros del 
                       evento, a otros estudiantes de codo a codo y los oradores de primer 
-                                                  nivel que tenemos para ti. Te esperamos!
-                    </pre>       
-                    
-                    <div>
+                                                  nivel que tenemos para ti. Te esperamos!                         
+                    </pre> 
+                    <div class="container-fluid">
                       <button type="button" class="boton-orador">Quiero ser orador</button>
                       <a href="tickets.html" >
                          <button  type="button" class="boton-TK"  >Comprar tickets</button>
-                      </a>
-                     
-                    </div>
-                   
+                      </a>                    
+                    </div>                   
                   </div>
                 </div>
-              </div>               
+                   
         </section>               
             <!--foto pricipal fin--> 
 
@@ -217,7 +213,7 @@
     </footer>
       <!--footer fin-->
       
-      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
       <script src="js/tickets.js"></script>
 </body>
 </html>
